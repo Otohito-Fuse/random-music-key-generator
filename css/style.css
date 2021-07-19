@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 游ゴシック体, YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 游ゴシック, 'Yu Gothic', メイリオ, Meiryo, sans-serif;
+    color: #45342a;
+    background: #fafafa;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: 10px auto 0 auto;
+}
+
+.menu-area {
+    text-align: center;
+    margin: 30px auto 15px auto;
+    max-width: 450px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.each-menu {
+    padding: 0px 15px;
+    text-decoration: underline;
+    transition: color .3s;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.each-menu:hover {
+    color: sienna;
+}
+
+.each-menu:active {
+    color: brown;
+}
+
+.button {
+    margin: 30px auto;
+    text-align: center;
+    max-width: 150px;
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    border: 1px solid #45342a;
+    cursor: pointer;
+    transition: background-color .3s;
+    background-color: #f9f9f9;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.button:hover {
+    background-color: #f1f1f1;
+}
+
+.button:active {
+    background-color: #c8c8c8;
+}
+
+.key-name {
+    margin: 45px auto;
+    text-align: center;
+    font-size: 15vw;
+}
